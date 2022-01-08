@@ -13,9 +13,9 @@ description: >
 ## 카테고리
 
 * [Algorithm]{:.heading.flip-title} --- 알고리즘
-* [Data Structure]{:.heading.flip-title} --- 데이터 구조
+* [Data-Structure]{:.heading.flip-title} --- 데이터 구조
 * [Python]{:.heading.flip-title} --- 파이썬
 
 [Algorithm]: /algorithm/
-[Data Structure]: /data-structure/
+[Data-Structure]: /data-sturcture/
 [Python]: /python/

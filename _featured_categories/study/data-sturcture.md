@@ -1,10 +1,10 @@
 ---
 layout: list
 category: study
-bigtitle: 
-slug: test1
+bigtitle: Data Sturcture
+slug: data-sturcture
 description: >
-  하위메뉴 테스트1
+  프로그래밍 이론, 데이터 구조
 
 related_posts:
     - 

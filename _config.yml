@@ -62,8 +62,8 @@ menu:
     submenu:
       - title:         Algorithm
         url:           /algorithm/
-      - title:         Data-structure
-        url:           /data-sturcture/
+      - title:         Data-Structure
+        url:           /data_sturcture/
       - title:         Python
         url:           /python/
 
@@ -71,7 +71,7 @@ menu:
     url:               /book/
     submenu:
       - title:         Development
-        url:           /devit/
+        url:           /development/
       - title:         IT
         url:           /it/
       - title:         Finance

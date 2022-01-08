@@ -1,13 +1,13 @@
 ---
 layout: list
 category: study
-bigtitle: Algorithm
-slug: algorithm
+bigtitle: Python
+slug: python
 description: >
-  프로그래밍 이론, 알고리즘
+  프로그래밍 언어, 파이썬
 
 related_posts:
     - 
 list: true
-order: 1
+order: 3
 ---
