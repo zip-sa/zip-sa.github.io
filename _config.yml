@@ -25,7 +25,7 @@ title:                 코딩 집사 블로그
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  고양이를 좋아하는 흔한 인공지능 학부생
+  고양이를 좋아하는 인공지능 학부생
 
 # A shorter description for the sidebar.
 tagline:               나만의 GitBlog
@@ -78,7 +78,7 @@ menu:
         url:           /devit_book/
       - title:         금융 (Finance)
         url:           /finace_book/
-        
+
   - title:             Etc
     url:               /etc/
 
@@ -106,8 +106,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 
 # Customizaton
