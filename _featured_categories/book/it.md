@@ -1,13 +1,13 @@
 ---
 layout: list
 category: book
-bigtitle: Development & IT
-slug: devit_book
+bigtitle: IT 
+slug: it
 description: >
-  개발 및 IT 카테고리
+  IT 관련 서적
 
 related_posts:
     - 
 list: true
-order: 1
+order: 3
 ---

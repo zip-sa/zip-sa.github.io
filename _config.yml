@@ -50,26 +50,33 @@ author:
 menu:
   - title:             About
     url:               /about/
+
   - title:             Devlog
     url:               /devlog/
+
   - title:             Project
-  - url:               /project/
+    url:               /project/
+
   - title:             Study
     url:               /study/
     submenu:
       - title:         Algorithm
         url:           /algorithm/
       - title:         Data-structure
-        url:           /data-sturcture
+        url:           /data-sturcture/
       - title:         Python
         url:           /python/
+
   - title:             Book
     url:               /book/
     submenu:
-      - title:         Development & IT
-        url:           /devit_book/
+      - title:         Development
+        url:           /devit/
+      - title:         IT
+        url:           /it/
       - title:         Finance
-        url:           /finace_book/
+        url:           /finace/
+
   - title:             Etc
     url:               /etc/
 

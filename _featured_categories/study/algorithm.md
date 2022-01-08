@@ -1,10 +1,10 @@
 ---
 layout: list
-category: subcat
-bigtitle: Test1
-slug: test1
+category: study
+bigtitle: Algorithm
+slug: algorithm
 description: >
-  하위메뉴 테스트1
+  알고리즘
 
 related_posts:
     - 

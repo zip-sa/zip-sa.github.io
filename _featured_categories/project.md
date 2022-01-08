@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Other
+title: Project
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: other
+slug: project
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  코딩 이외의 공간입니다.
+  프로젝트 관련 포스팅 공간
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

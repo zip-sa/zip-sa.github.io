@@ -12,8 +12,10 @@ description: >
 
 ## 카테고리
 
-* [Development & IT]{:.heading.flip-title} --- 개발 및 IT
+* [Development]{:.heading.flip-title} --- 개발
+* [IT]{:.heading.flip-title} --- IT
 * [Finance]{:.heading.flip-title} --- 금융
 
-[Development & IT]: /devit_book/
-[Finance]: /finance_book/
+[Development]: /development/
+[IT]: /it/
+[Finance]: /finance/
