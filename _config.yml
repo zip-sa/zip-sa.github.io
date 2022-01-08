@@ -49,12 +49,38 @@ author:
 # Add links to the sidebar.
 menu:
 
+  - title:             Home
+    url:               https://zip-sa.github.io
+
   - title:             About
     url:               /about/
-  - title:             Programming
-    url:               /programming/
-  - title:             Other
-    url:               /other/
+
+  - title:             Devlog
+    url:               /devlog/
+
+  - title:             Project
+  - url:               /project/
+
+  - title:             Study
+    url:               /study/
+    submenu:
+      - title:         알고리즘 (Algorithm)
+        url:           /algorithm/
+      - title:         자료구조 (Data structure)
+        url:           /data-sturcture
+      - title:         파이썬 (Python)
+        url:           /python/
+
+  - title:             Book
+    url:               /book/
+    submenu:
+      - title:         개발 및 IT (Development & IT)
+        url:           /devit_book/
+      - title:         금융 (Finance)
+        url:           /finace_book/
+        
+  - title:             Etc
+    url:               /etc/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -80,8 +106,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 
 # Customizaton
