@@ -20,7 +20,7 @@ url:                   https://zip-sa.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 코딩 집사 블로그
+title:                 집사 블로그
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -28,7 +28,7 @@ description:           >
   고양이를 좋아하는 인공지능 학부생
 
 # A shorter description for the sidebar.
-tagline:               나만의 GitBlog
+tagline:               Cat + Coding + Devlog
 
 # A list of keywords for your blog
 keywords:              [Cat, AI, Data Science, Coding]
@@ -36,7 +36,7 @@ keywords:              [Cat, AI, Data Science, Coding]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo_zipsa.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
