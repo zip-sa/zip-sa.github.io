@@ -1,16 +1,16 @@
 ---
 layout: post
-title: 테스트 포스팅1
+title: 테스트 포스팅3
 image: 
   path: /assets/img/blog/jeremy-bishop@0,5x.jpg
 description: >
-    금융 책 리뷰 테스트 포스팅1 입니다.
+    it 책 리뷰 테스트 포스팅1 입니다.
 sitemap: false
 categories:
   - book
-  - finance
+  - it
 ---
 
 # 아 무 내 용 없 음
-test
-test1
+test3
+test3
