@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 마크다운 기초
+subtitle: basic markdown
 description: >
     마크다운 기초 설명
 sitemap: false
