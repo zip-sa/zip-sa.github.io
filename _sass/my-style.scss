@@ -36,7 +36,7 @@
 
 // profile avatar image
 .content .avatar {
-  float: right !important;    // 왼쪽으로 보낼지 오른쪽으로 보낼지
+  float: left !important;    // 왼쪽으로 보낼지 오른쪽으로 보낼지
   box-sizing: content-box;
   border: 1rem solid var(--body-bg);
   transition: border-color 1s ease;
@@ -47,6 +47,6 @@
 }
 
 .author-body-description {
-  margin-left: 20px !important;  // 소개글 위치 정하기 200px
-  margin-top: 20px !important;      // 20px
+  margin-left: 200px !important;  // 소개글 위치 정하기 200px
+  margin-top: 40px !important;      // 40px
 }
