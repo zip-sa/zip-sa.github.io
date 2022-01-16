@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 테스트 포스팅1
-image:
-  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
+title: test1
+# image:
+#   path: /assets/img/blog/jeremy-bishop@0,5x.jpg
 description: >
   금융 책 리뷰 테스트 포스팅1 입니다.
 sitemap: false
@@ -11,7 +11,4 @@ categories:
   - finance
 ---
 
-# 아 무 내 용 없 음1
-
-test
 test1
