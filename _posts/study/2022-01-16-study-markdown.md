@@ -57,7 +57,12 @@ Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의�
 ~~~
 
 🔍 **결과**
-
+# this is a h1
+## this is a h2
+### this is a h3
+#### this is a h4
+##### this is a h5
+###### this is a h6
 
 
 ### 2. 코드블럭
@@ -83,7 +88,14 @@ print(func(2,3))
 ~~~
 
 > 🔍 **결과**
+<pre>
+<code>
+def func(a,b):
+    return a+b
 
+print(func(2,3))
+</code>
+</pre>
 
 
 **2.3 들여쓰기 사용**
@@ -144,19 +156,18 @@ print(func(a,b))
 ~~~
 > This is a first blockquote
 ~~~
-
+> This is a first blockquote
 
 
 ~~~
 >> This is a second blockquote
 ~~~
-
-
+>> This is a second blockquote
 
 ~~~
 >>> This is a third blockquote
 ~~~
-
+>>> This is a third blockquote
 
 
 
@@ -172,7 +183,12 @@ print(func(a,b))
 ~~~
 
 > 🔍 **결과**
-
+> ## This is a h3
+> * list1
+> * list2
+>   ~~~
+>   code
+>   ~~~
 
 
 ### 4. 글머리 기호
@@ -185,7 +201,10 @@ print(func(a,b))
 ~~~
 
 > 🔍 **결과**
-
++ 글머리
+  + 글머리2
+    + 글머리3
+      + 글머리 4
 
 
 ### 5. 강조
@@ -199,7 +218,11 @@ __double underscores__
 ~~~
 
 > 🔍 **결과**
-
+*single asterisks*  
+_single underscores_  
+**double asterisks**  
+__double underscores__  
+~~cancelline~~  
 
 
 ### 6. 기호표시
@@ -243,7 +266,15 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
+* * *
 
+***
+
+*****
+
+----
+
+- - -
 
 
 ### 8. 링크
@@ -251,21 +282,21 @@ _   underscore
 - 외부 링크   
 [링크 키워드](링크 주소)
 ~~~
-예 : [내 블로그](https://khw11044.github.io/about.html)
+예 : [내 블로그](https://zip-sa.github.io/about.html)
 ~~~
 
 > 🔍 **결과**
-
+예 : [내 블로그](https://zip-sa.github.io/about.html)
 
 
 - 자동 링크  
 
 ~~~
-예 : <https://khw11044.github.io/about.html>
+예 : <https://zip-sa.github.io/about.html>
 ~~~
 
 > 🔍 **결과**  
-
+예 : <https://zip-sa.github.io/about.html>
 
 
 
@@ -280,7 +311,8 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
-
+![그림1](/assets/img/etc/markdownshow.jpg)
+![그림2](/assets/img/etc/markdownshow.jpg){: width="400" height="400"}
 
 
 
@@ -291,6 +323,7 @@ _   underscore
 줄 바꿈시 사용
 줄 바꿈시 사용
 
+<br><br>
 1. ```<br>``` 사용
 
 ~~~
@@ -299,9 +332,10 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
+줄 바꿈시 사용 <br>
+줄 바꿈시 사용
 
-
-
+<br><br>
 2. Enter 2번
 
 ~~~
@@ -312,7 +346,12 @@ _   underscore
 ~~~
 
 >  🔍 **결과**
+줄 바꿈시 사용  
 
+
+줄 바꿈시 사용
+
+<br><br>
 
 
 3. 스페이스바 2번
@@ -323,8 +362,10 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
+줄 바꾸기   
+줄이 바뀌었습니다.
 
-
+<br><br>
 
 ### 11. 표
 
@@ -338,8 +379,12 @@ _   underscore
 
 > 🔍 **결과**
 
-
-
+------ | NumPy | PyTorch |
+| ------ | -------- | ---------- |
+| 선언 | np.array() | torch.FloatTensor, <br/> torch.Tensor()|
+| 차원 확인 | .ndim | .dim()|
+| 크기 확인 | .shape | .size()|
+<br><br>
 ### 12. Expander control
 
 마크다운에서 접기/펼치기 가능한 컨트롤 문법  
@@ -360,8 +405,19 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="1">
 
+|제목|내용|
+|--|--|
+|1|1|
+|2|10|
 
+</div>
+</details>
+
+<br><br>
 
 ~~~html
 <details>
@@ -372,7 +428,11 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
-
+<details>
+<blockquote>
+    숨김숨김
+</blockquote>
+</details>
 
 ### 13. 이모지
 
@@ -394,3 +454,4 @@ $$x + y = 1$$
 ~~~
 
 > 🔍 **결과**
+$$x + y = 1$$
