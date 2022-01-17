@@ -8,9 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    찾아주셔서 감사합니다. 저는 인공지능에 관심이 많은 대학생입니다.
+    &nbsp;&nbsp;&nbsp;찾아주셔서 감사합니다. 저는 인공지능에 관심이 많은 대학생입니다.
 
-    Please check my [CV](/assets/CV.pdf)
+    &nbsp;&nbsp;&nbsp;&nbsp;Please check my [CV](/assets/CV.pdf)
     
   # This photo will be used in the about section
   picture:

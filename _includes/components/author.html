@@ -12,15 +12,19 @@
 <!--게시물 밑에 작성자 -->
     <!-- 프로필 이미지 -->
         {% if author.picture %}
-            {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="180" height="180" %}
+            {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="140" height="140" %}
         {% endif %}
     <!-- 글 -->
     <div class="author-body-description" >
+<<<<<<< HEAD
         <span style = " font-size:1.4em;  color: rgb(0, 0, 0);"><strong>{{ author.name | markdownify }}</strong></span>
         <b style = "font-size:0.8em; color: rgb(141, 141, 141);">{{ author.about | markdownify }}</b>
+=======
+        <span style = " font-size:1.4rem;  color: rgb(0, 0, 0);"><strong>{{ author.name | markdownify }}</strong></span>
+        <b style = "font-size:0.8rem; color: rgb(141, 141, 141);">{{ author.about | markdownify }}</b>
+>>>>>>> hotfix/1.21
     </div>
     <!--소셜-->
-    <div class="sidebar-social">
     <div class="sidebar-social">
         {% include components/social.html author=author %}
     </div>
