@@ -67,19 +67,6 @@ menu:
       - title:         Python
         url:           /python/
 
-  - title:             Book
-    url:               /book/
-    submenu:
-      - title:         Development
-        url:           /development/
-      - title:         IT
-        url:           /it/
-      - title:         Finance
-        url:           /finace/
-
-  - title:             Etc
-    url:               /etc/
-
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
