@@ -7,15 +7,17 @@ hide_description: true
 ---
 
 # About
+
 <!--author-->
+
 ***
 <center>
-<span style="font-size:170%;font-weight:bold"> 박승우
+<span style="font-size:150%;font-weight:bold"> 박승우
 </span>
 </center>
 <center>MAJOR : AI ENGINEERING</center>
 <center>Wonkwang University</center>
-<center>Iksan, Republic of Korea</center>
+<center>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Iksan, Republic of Korea</center>
 
 ## Personal Data
 ---
@@ -56,3 +58,4 @@ hide_description: true
 -Language : Python, C/C++ <br>
 -FrameWork: Pytorch, Tensorflow(Keras) <br>
 -Certification : DSAC Expert level (2/7) <br>
+
