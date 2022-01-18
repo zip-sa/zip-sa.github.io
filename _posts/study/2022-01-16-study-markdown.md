@@ -112,7 +112,10 @@ print(func(2,3))
 
 
 > 🔍 **결과**
+    def func(a,b):
+        return a+b
 
+    print(func(2,3))
 
 
 
@@ -133,7 +136,12 @@ print(func(a,b))
 
 > 🔍 **결과**
 
+~~~python
+def func(a,b):
+    return a+b
 
+print(func(a,b))
+~~~
 
 - 그밖에 언어들  
     - Bash (bash)
@@ -455,3 +463,16 @@ $$x + y = 1$$
 
 > 🔍 **결과**
 $$x + y = 1$$
+
+### 15. 다양한 밑줄
+<br>
+
+<kbd>hello</kbd>
+
+<a>hello</a>
+
+<code>hello</code>
+
+<mark>hello</mark>
+
+<under>hello</under>
